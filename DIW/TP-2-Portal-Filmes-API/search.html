@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gabflix - Portal de Filmes</title>
+    <link rel="shortcut icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="contanier-fluid">
+        <div class="container-fluid top">
+            <div class="container">
+                <div class="logo"></div>
+                <input type="checkbox" id="checkboxMenu">
+                <label for="checkboxMenu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </label>
+                <nav>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="search.html">Buscar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main style="margin-top: 70px">
+        <section class="container-fluid destaques">
+            <div class="container">
+                <div class="top">
+                    <h1>Buscar</h1>
+                </div>
+                <form class="row" id="search">
+                    <div class="col-12">
+                        <input class="form-control" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+                        <button type="submit" class="btn btn-dark float-right mt-4">Buscar</button>
+                    </div>
+                </form>
+                <ul class="row mt-4"></ul>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <div class="container py-3">
+            <div class="copy py-3">Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></div>
+            <div class="logo mt-2"></div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

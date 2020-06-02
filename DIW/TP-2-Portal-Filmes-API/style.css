@@ -1,0 +1,364 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+img { max-width: 100%; }
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+    transition: opacity .2s;
+}
+
+a:hover {
+    color: inherit;
+    opacity: .5;
+}
+
+header {
+    background-color: #333;
+}
+
+header .top {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 0 2px 0 rgba(0,0,0,.1), inset 0 -2px 0 rgba(255,255,255,0.05);
+    z-index: 999;
+}
+
+header .top input[type="checkbox"] { display: none; }
+
+header .top label[for="checkboxMenu"] {
+    position: relative;
+    margin: 10px 0 0 auto;
+    font-size: 30px;
+    color: #FFF;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+}
+
+header .top label[for="checkboxMenu"] i:last-of-type {
+    margin-top: 7px;
+    color: rgba(255,255,255,0.5);
+    display: none;
+}
+
+header .top input[type="checkbox"]:checked ~  label[for="checkboxMenu"] i:last-of-type { display: block; }
+
+header .top input[type="checkbox"]:checked ~  label[for="checkboxMenu"] i:first-of-type { display: none; } 
+
+header .top > .container {
+    display: flex;
+}
+
+header .top .logo {
+    width: 135px;
+    height: 50px;
+    margin-top: 10px;
+    background-image: url('./images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+header .top nav {
+    margin-left: auto;
+    display: inline-block;
+}
+
+header .top nav ul {
+    height: 100%;
+}
+
+header .top nav ul li {
+    padding: 12px 0;
+}
+
+header .top nav ul li a {
+    font-weight: 500;
+    font-size: 13px;
+    color: #555;
+    transition: color .2s;
+}
+
+header .top nav ul li a:hover,
+header .top nav ul li a.active {
+    color: #FF0000;
+}
+
+header .top nav input {
+    width: 170px;
+    padding: 0 5px;
+    margin: 12px 0 0 20px;
+    background-color: transparent;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2) !important;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    opacity: 0.5;
+    transition: opacity .2s;
+}
+
+header .top nav input:focus {
+    color: #FFF;
+    opacity: 1;
+    background-color: transparent;
+}
+
+main section {
+    padding: 30px 0 10px;
+}
+
+main section .top {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+main section .top h1 {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+main section .top select {
+    width: 150px;
+    margin-left: auto;
+}
+
+main section .bottom {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main section ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+main section ul li {
+    list-style: none;
+}
+
+main section .card {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+main section.destaques .card {
+    height: 350px;
+    background-size: cover;
+    background-position: top center;
+}
+
+main section.destaques .card .card-body {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 3px #000;
+    color: #FFF;
+}
+
+main section.avaliacoes {
+    background-color: #000;
+}
+
+main section.avaliacoes .top h1 {
+    color: #FFF;
+}
+
+main section.avaliacoes .card .card-image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 20px auto 0;
+}
+
+main section.avaliacoes .card .card-title {
+    text-align: center;
+}
+
+main section.avaliacoes .card p {
+    font-size: 12px;
+}
+
+main section.entrevistas .card iframe {
+    width: 100%;
+}
+
+main section.novidades-infos {
+    background-color: #000;
+}
+
+main section.novidades-infos .top h1 {
+    color: #FFF;
+}
+
+main section.novidades-infos .content {
+    color: #FFF;
+}
+
+main section.novidades-infos .card {
+    flex-direction: row;
+    display: flex;
+}
+
+main section.novidades-infos .card .card-image {
+    width: 175px;
+    height: 175px;
+    background-size: cover;
+    background-position: center;
+}
+
+main section.novidades-infos .card .card-body {
+    width: calc(100% - 175px);
+}
+
+main section.novidades-infos .card .card-body .categoria{
+    width: auto;
+    padding: 7px 10px;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 15px;
+    font-size: 11px;
+    color: #FFF;
+    float: left;
+}
+
+footer {
+    background-color: #111;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .copy {
+    width: calc(100% - 200px);
+    color: rgba(255,255,255,0.4);
+}
+
+footer .logo {
+    width: 135px;
+    height: 50px;
+    margin-left: auto;
+    background-image: url('./images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 995px) {
+    
+    header .top label[for="checkboxMenu"] { display: block; }
+
+    header .top input[type="checkbox"]:checked ~  nav { right: 0; }
+
+    header .top nav {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        padding: 15px 0;
+        background-color: rgba(0,0,0,.95);
+        align-content: center;
+        transition: right .15s;
+    }
+
+    header .top nav ul { height: auto; }
+
+    header .top nav ul li {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    header .top nav ul li a {
+        font-size: 20px;
+    }
+
+    header .top nav input {
+        width: 200px;
+        margin: 30px auto;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header .slide{ 
+        height: 330px;
+    }
+
+    header .slide .slideTitle {
+        top: 95px;
+        font-size: 18px;
+    }
+
+    header .slide .carousel-inner .carousel-item {
+        padding-top: 135px;
+    }
+
+    header .slide .carousel-inner .carousel-item .data h1 {
+        text-align: center;
+    }
+
+    main section.novidades-infos .card {
+        flex-direction: column;
+    }
+    
+    main section.novidades-infos .card .card-image {
+        width: 100%;
+    }
+    
+    main section.novidades-infos .card .card-body {
+        width: 100%;
+    }
+
+    footer .container {
+        display: block;
+    }
+
+    footer .copy {
+        width: 100%;
+    }
+    
+    footer .logo {
+        width: 135px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    header .slide .carousel-inner .carousel-item .data h1 {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    header .slide{ 
+        height: 230px;
+    }
+
+    header .slide .slideTitle {
+        font-size: 14px;
+    }
+
+    header .slide .carousel-inner .carousel-item .data .sinopse {
+        display: none;
+    }
+
+}

@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gabflix - Portal de Filmes</title>
+    <link rel="shortcut icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="contanier-fluid">
+        <div class="container-fluid top">
+            <div class="container">
+                <div class="logo"></div>
+                <input type="checkbox" id="checkboxMenu">
+                <label for="checkboxMenu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </label>
+                <nav>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Entrevistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novidades</a>
+                        </li>
+                        <input class="form-control" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="slideTitle">LANÇAMENTOS</div>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image: url('./images/slides/lacasadepapel.jpg')">
+                <div class="container">
+                    <div class="row data">
+                        <div class="col-sm-12 col-md-6 d-none d-md-block">
+                            <iframe height="315" src="https://www.youtube.com/embed/Oqfh0dKHhT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <h1>La Casa de Papel</h1>
+                            <p class="sinopse">
+                                <b>Sinopse:</b> Um grupo de nove ladrões, liderados por um Professor, prepara o roubo do século na Casa da Moeda da Espanha, com o objetivo de fabricar o próprio dinheiro em quantidades incalculáveis e nunca antes vista.
+                            </p>
+                            <p class="d-none d-md-block">
+                                <b>Diretor:</b> Jesús Colmenar, Koldo Serra, Álex Rodrigo e Javier Quintas<br>
+                                <b>Roteiro:</b> Alex Pina, Enrique Arce, Fernando Cayo, Miguel Angel, Koldo Serra e Brian Beacock<br>
+                                <b>Estreia:</b> 2 de maio de 2017<br>
+                                <b>Elenco principal:</b><br>
+                                Álvaro Morte, Úrsula Corberó, Itziar Ituño, Alba Flores
+                            </p>
+                            <p class="d-none d-md-block">
+                                <b>Avaliação:</b><br>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image: url('./images/slides/greysanatomy.jpg')">
+                <div class="container">
+                    <div class="row data">
+                        <div class="col-sm-12 col-md-6 d-none d-md-block">
+                            <iframe height="315" src="https://www.youtube.com/embed/CJ9Uvs8U50A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <h1>Grey's Anatomy</h1>
+                            <p class="sinopse">
+                                <b>Sinopse:</b> Um grupo de jovens médicos do Hospital Seattle Grace e suas carreiras como residentes. Um dos médicos, que se esforça para se relacionar com seus colegas, é a filha de um famoso cirurgião.
+                            </p>
+                            <p class="d-none d-md-block">
+                                <b>Diretor:</b> Debbie Allen<br>
+                                <b>Roteiro:</b> Shonda Rhimes, Krista Vernoff, Peter Nowalk, Stacy McKee, Mimi Schmir, Zoanne Clack, Joan Rater, Debora Cahn e James D. Parriott<br>
+                                <b>Estreia:</b> 27 de março de 2005<br>
+                                <b>Elenco principal:</b><br>
+                                Ellen Pompeo, Justin Chambers, Chandra Wilson
+                            </p>
+                            <p class="d-none d-md-block">
+                                <b>Avaliação:</b><br>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section class="container-fluid destaques">
+            <div class="container">
+                <div class="top">
+                    <h1>Destaques</h1>
+                    <select class="form-control">
+                        <option>Todos</option>
+                        <option>Aventura</option>
+                        <option>Romance</option>
+                        <option>Comédia</option>
+                    </select>
+                </div>
+                <ul class="row">
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="background-image: url('images/capas/the-paramedic.jpg')">
+                            <h4 class="card-title">
+                                <a href="#">The Paramedic</a>
+                            </h4>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="background-image: url('images/capas/deep-blue-sea-3.jpg')">
+                            <h4 class="card-title">
+                                <a href="#">Deep Blue Sea 3</a>
+                            </h4>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="background-image: url('images/capas/dragon-heart.jpg')">
+                            <h4 class="card-title">
+                                <a href="#">Dragon Heart</a>
+                            </h4>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="background-image: url('images/capas/escape-from-auschwits.jpg')">
+                            <h4 class="card-title">
+                                <a href="#">Escape From Auschwits</a>
+                            </h4>
+                        </div>
+                    </li>
+                    <div class="col-12">
+                        <button type="button" class="btn btn-dark float-right">Carregar +</button>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="container-fluid avaliacoes">
+            <div class="container">
+                <div class="top">
+                    <h1>Últimas Avaliações</h1>
+                </div>
+                <ul class="row">
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('./images/avaliacoes/kristen_stewart.jpg')"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Kristen Stewart</h5>
+                                <p>
+                                    O filme <b>As Branquelas</b> é muito engraçado, uma das melhores comédias já feitas.
+                                </p>
+                                <p class="d-none d-lg-block">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('./images/avaliacoes/robert-pattinson.jpg')"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Robert Pattinson</h5>
+                                <p>
+                                    Há bastante tempo não assisto um filme como <b>Harry Potter e a Pedra Filosofal</b>. Muito legal, super recomendo!
+                                </p>
+                                <p class="d-none d-lg-block">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('./images/avaliacoes/leonardo_dicaprio.jpg')"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Leonardo DiCaprio</h5>
+                                <p>
+                                    O filme <b>Tropa de Elite</b> é bem interessante, porém deixou a desejar em alguns pontos.
+                                </p>
+                                <p class="d-none d-lg-block">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('./images/avaliacoes/brad_pitt.jpg')"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Brad Pitt</h5>
+                                <p>
+                                    Gostei demais do filme <b>Rocky, um Lutador</b>, mas o desfecho foi rasoável.
+                                </p>
+                                <p class="d-none d-lg-block">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container-fluid entrevistas">
+            <div class="container">
+                <div class="top">
+                    <h1>Entrevistas & Making Of</h1>
+                </div>
+                <ul class="row">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/drXJujyIIR8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://www.youtube.com/watch?v=drXJujyIIR8" target="_blank">Joker</a>
+                                </h5>
+                                <p>
+                                    <b>Diretor:</b> Todd Phillips<br>
+                                    <b>Roteiro:</b> Scott Silver<br>
+                                    <b>Estreia:</b> 2019
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/G61QhQjsvpw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://www.youtube.com/watch?v=G61QhQjsvpw" target="_blank">Avengers: Endgame</a>
+                                </h5>
+                                <p>
+                                    <b>Diretor:</b> Joe e Anthony Russo<br>
+                                    <b>Roteiro:</b> Christopher Markus e Stephen McFeely<br>
+                                    <b>Estreia:</b> 2019
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/Fa7gQSl6ZWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://www.youtube.com/watch?v=Fa7gQSl6ZWc" target="_blank">Spider-Man: Homecoming</a>
+                                </h5>
+                                <p>
+                                    <b>Diretor:</b> Jon Watts<br>
+                                    <b>Roteiro:</b> Jonathan M. Goldstein, John Francis Daley, Jon Watts, Christopher Ford, Chris McKenna e Erik Sommers<br>
+                                    <b>Estreia:</b> 2017
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container-fluid novidades-infos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-8">
+                        <div class="top">
+                            <h1>Novidades</h1>
+                        </div>
+                        <ul class="row">
+                            <li class="col-12">
+                                <div class="card">
+                                    <div class="card-image" style="background-image: url('./images/novidades/novo-filme-tom-holland.jpg');"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="#">Spoiler do novo filme de Tom Holland</a>
+                                        </h5>
+                                        <p>Uncharted: Fotos de bastidores dão spoiler do novo filme de Tom Holland</p>
+                                        <p class="mt-2">
+                                            <div class="categoria">Notícia</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-12">
+                                <div class="card">
+                                    <div class="card-image" style="background-image: url('./images/novidades/chadwick-samuel-filme-juntos.jpg');"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="#">Chadwick & Samuel L. planejam filme</a>
+                                        </h5>
+                                        <p>Chadwick Boseman e Samuel L. Jackson estavam planejando filme juntos</a></p>
+                                        <p class="mt-2">
+                                            <div class="categoria">Novidade</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-12">
+                                <div class="card">
+                                    <div class="card-image" style="background-image: url('./images/novidades/o-diabo-cada-dia.jpg');"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="#">O Diabo de Cada Dia: elenco</a>
+                                        </h5>
+                                        <p>O Diabo de Cada Dia: Conheça o elenco do filme com Tom Holland e Robert Pattinson</p>
+                                        <p class="mt-2">
+                                            <div class="categoria">Conhecimento</div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="top" style="margin-bottom: 10px">
+                                    <h1>Sobre</h1>
+                                </div>
+                                <div class="content">
+                                    Um portal de filmes é um site na internet projeto para aglomerar e distribuir filmes de várias categorias diferentes de maneira uniforme, sendo um ponto de acesso para uma série de outros sites e subsites internamente ou externamente ao domínio ou subdomínio da empresta gestora do portal.<br><br>
+                                    Na sua estrutura mais comum, os portais constam de um motor de busca, um conjunto, por vezes considerável, de áreas subordinadas com conteúdos próprios, uma área de notícias, um ou mais fóruns e outros serviços de geração de comunidades, além de um diretório, podendo incluir ainda outros tipos de conteúdos.
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <div class="top" style="margin-bottom: 10px">
+                                    <h1>Editorial</h1>
+                                </div>
+                                <content class="content" style="line-height: 5px;">
+                                    <p><b>Redação:</b> Gabriel</p>
+                                    <p><b>Pesquisa:</b> Henrique</p>
+                                    <p><b>Gerente Geral:</b> Lucas</p>
+                                </content>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <div class="top" style="margin-bottom: 5px">
+                                    <h1>Redes Sociais</h1>
+                                </div>
+                                <content class="content" style="font-size: 30px;">
+                                    <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;
+                                    <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>&nbsp;&nbsp;&nbsp;
+                                    <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </content>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <div class="container py-3">
+            <div class="copy py-3">Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></div>
+            <div class="logo mt-2"></div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
